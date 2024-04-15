@@ -280,7 +280,15 @@ log: { type: stdout, format: pretty, level: http }
 
 这样，发布和删除包，可以使用已注册的账号。而访问包，在内网环境下的所有人均可以。
 
-## 7.参考文章
+## 7.持久化
+
+利用 `pm2` 启动 `verdaccio` 以在后台运行：
+
+```shell
+pm2 start verdaccio
+```
+
+## 8.参考文章
 
 1. [私有npm仓库](https://juejin.cn/post/6953115364511186975)
 
