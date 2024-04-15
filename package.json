@@ -1,0 +1,22 @@
+{
+  "name": "learn-verdaccio",
+  "version": "1.0.0",
+  "private": false,
+  "main": "index.js",
+  "author": "oneyoung19",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "peerDependencies": {},
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
